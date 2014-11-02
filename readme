@@ -24,4 +24,4 @@ pipes.sh
 xerxes.c
     torhammer-esque jester modification denial of service tool for the
     frosty frozenbox network shoutout to parrotsec.org parrot security os
-    compile: gcc -o xerxes xerxes.c     usage: ./xerxes attackvector.org
+    compile: gcc -o xerxes xerxes.c     usage: ./xerxes attackvector.org 80
