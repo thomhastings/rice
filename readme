@@ -20,3 +20,8 @@ pipes.sh
 	Top-Right in image, makes pipes. If I recall correctly it was a pretty
 	old script, but it didn't work, someone had posted it on 4chan and I
 	fixed it.
+
+xerxes.c
+    torhammer-esque jester modification denial of service tool for the
+    frosty frozenbox network shoutout to parrotsec.org parrot security os
+    compile: gcc -o xerxes xerxes.c     usage: ./xerxes attackvector.org
