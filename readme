@@ -25,3 +25,5 @@ xerxes.c
     torhammer-esque jester modification denial of service tool for the
     frosty frozenbox network shoutout to parrotsec.org parrot security os
     compile: gcc -o xerxes xerxes.c     usage: ./xerxes attackvector.org 80
+
+N.B. requires tor to be running to do that whose mean mini-DoS thingy-ma-bob
