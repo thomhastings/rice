@@ -1,6 +1,8 @@
 A dump of scripts that are used for fun/rice, as seen on repeated posts on
 reddit (http://i.imgur.com/pQT0l.gif)
 
+`sudo apt-get install cmatrix`
+
 256color.pl
 	Not shown in image, makes a simple 256 color rectangle to test if
 	terminals have 256 color compatability.
