@@ -14,6 +14,9 @@ Not shown in image, a shell script made to mimic [Hacker Typer](http://hackertyp
 ##pipes.sh
 Top-Right in image, makes pipes. If I recall correctly it was a pretty old script, but it didn't work, someone had posted it on 4chan and I fixed it.
 
+##matrix.sh
+Similar to the lower-middle image. Doesn't follow the exact same pattern and uses different symbol. Quick fix for now, changed later.
+
 ##hack.exe.c
 An upgraded version of hack.exe
 - 1337% better
