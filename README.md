@@ -5,6 +5,9 @@ A dump of scripts that are used for fun/rice, all for h4ack$.
 ##256color.pl
 Not shown in image, makes a simple 256 color rectangle to test if terminals have 256 color compatibility.
 
+##3spooky.lua
+Top-middle in image, if I recall correctly, some guy on 4chan posted it on [Pastebin](http://pastebin.com/brwgHnCq) and I just reuploaded it here.
+
 ##hack.exe
 Middle-left in image, a bash script I made when bored, might not always get IP addresses right, otherwise it should work for everything else.
 
