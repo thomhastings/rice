@@ -1,7 +1,14 @@
 A dump of scripts that are used for fun/rice, as seen on repeated posts on
-reddit (http://i.imgur.com/pQT0l.gif)
+reddit (http://i.imgur.com/pQT0l.gif) and other cosmetic surgery
 
-`sudo apt-get install cmatrix`
+```apt install cmatrix```
+	Bottom-middle in image, simulates the display from "The Matrix"
+
+get-figlet.sh
+	Installs ASCII art generator and font files from http://textfiles.com
+	
+get-buuf.sh
+	Downloads, installs and applies Buuf icon theme for GNOME desktop
 
 256color.pl
 	Not shown in image, makes a simple 256 color rectangle to test if
@@ -12,14 +19,14 @@ reddit (http://i.imgur.com/pQT0l.gif)
 	(http://pastebin.com/brwgHnCq) and I just reuploaded it here.
 
 cs1graphics.py
-    via cs1graphics.org requires tkinter used in Goldwasser / Letscher book
+    via http://cs1graphics.org requires tkinter used in Goldwasser / Letscher book
 
 hack.exe
 	Middle-left in image, a bash script I made when bored, might not always
 	get IP addresses right, otherwise it should work for everything else.
 
 hackertyper.sh
-	Not shown in image, a shell script made to mimic http://hackertyper.com/
+	Not shown in image, a shell script made to mimic http://hackertyper.com
 
 pipes.sh
 	Top-Right in image, makes pipes. If I recall correctly it was a pretty
