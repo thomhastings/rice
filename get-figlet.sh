@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Get Figlet script"
-echo "(c) Thom Hastings 2011 New BSD license"
+echo "(c) Thom Hastings 2011-2017 New BSD license"
 echo
 echo "Installing Figlet..."
 sudo apt install -y figlet
