@@ -40,4 +40,8 @@ Not shown in image, it installs ASCII art generator and font files from [textfil
 ##get-buuf.sh
 Not shown in image, it downloads, installs and applies Buuf icon theme for GNOME desktop
 
+##get-sublime.sh
+I don't practice santeria, I ain't got no crystal ball, if I had a million dollars, well...
 
+##wgetall.sh
+Utility script to download all files of a given extension from a single web page.
