@@ -4,12 +4,17 @@
 # aka Adam Espitia
 # requirements: xdotool
 # installed (with apt)
+# going to try to script the dependency
+# tested on Kali Linux
 from Tkinter import *
 #from tkFileDialog import askopenfilename
 import Image, ImageTk, os, sys, time
 
 if __name__ == "__main__":
     root = Tk()
+
+    # install dependencies
+    os.system('apt install xdotool')
 
     #setting up a tkinter canvas with scrollbars
     frame = Frame(root, bd=2, relief=SUNKEN)
