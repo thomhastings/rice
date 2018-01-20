@@ -1,0 +1,105 @@
+Hardware: Purism Librem 13 v2
+Make sure WiFi switch is on
+
+Part I: Qubes Install
+
+0.) ESC to get to boot menu
+1.) Use Qubes 3.2 (stable release)
+2.) Boot to USB install, then: (1)
+	2a.) CTRL+ALT+F2 (get terminal)
+	2b.) Enter the following commands (reformat):
+		parted /dev/sda mklabel gpt
+		parted -a opt /dev/sda mkpart primary ext4 0% 100%
+		mkfs.ext4 -L datapartition /dev/sda1
+		reboot
+3.) Reboot to USB, follow the standard install
+4.) Reboot to USB, boot to Troubleshooting -> Rescue a Qubes system (2)
+	4a.) At the menu, choose:
+		1) Continue
+		enter your Qubes partition password if you chose to encrypt it during install
+		press <return> to get a shell
+	4b.) Enter the following commands at the shell (coreboot workaround):
+		chroot /mnt/sysimage
+		grub2-install /dev/sdb (or where your Qubes installation lives, e.g. M.2 SSD)
+		GRUB_CMDLINE_XEN_DEFAULT=“console=none dom0_mem=2048M,max:2048M”
+		grub2-mkconfig
+	4c.) ALT+TAB (anaconda shell) enter:
+		reboot
+5.) Reboot and follow the rest of the Qubes installation
+6.) Get the WiFi working:
+	6a.) Right-click on sys-net in Qubes VM Manager, select VM settings (3)
+	6b.) Under the Services tab, make sure that network-manager is added and enabled
+	6c.) Qubes Menu -> ServiceVM: sys-net -> sys-net: Add more shortcuts...
+		Network Connections (Available > Selected)
+	6d.) Qubes Menu -> ServiceVM: sys-net -> sys-net: Network Connections
+		(configure WiFi)
+
+Intermission: Cold (not soft) reboot and let Whonix install
+itsworking.gif
+
+Part II: Kali Install (4)
+
+0.) Qubes Menu -> Terminal Emulator (dom0)
+	0a.) Enter this command:
+		qvm-clone debian-8 kali-rolling
+1.) Qubes Menu -> Template: kali-rolling -> kali-rolling: Terminal
+	(or command: qvm-run -a kali-rolling gnome-terminal) (from dom0)
+	1a.) Enter the following commands:
+		sudo apt update
+		sudo apt dist-upgrade
+2.) Start and upgrade the kali-rolling Template from Debian 8 to Debian 9
+	2a.) Enter the following commands:
+ 		sudo sed -i 's/jessie/stretch/g' /etc/apt/sources.list
+ 		sudo sed -i 's/jessie/stretch/g' /etc/apt/sources.list.d/qubes-r3.list
+ 		sudo apt update
+ 		sudo apt dist-upgrade
+ 		sudo apt autoremove
+3.) Get the Kali GPG key and add it to apt
+	3a.) Enter the following command:
+		wget -q -O - https://www.kali.org/archive-key.asc | sudo apt-key add -
+4.) Add the Kali repository
+	4a.) Enter the following command (and use nano editor):
+		sudo nano /etc/apt/sources.list.d/kali.list
+ 			# Kali Linux repository
+ 			deb http://http.kali.org/kali kali-rolling main non-free contrib
+ 		CTRL+O (save)
+ 		CTRL+X (quit)
+5.) Update with new repository
+	5a.) Enter the following commands:
+		sudo apt update
+		sudo apt dist-upgrade
+		sudo apt autoremove
+6.) Trim the new template and grow the disk size
+	6a.) Qubes Menu -> Terminal Emulator (dom0)
+	6b.) Enter the following commands:
+		qvm-shutdown kali-rolling
+		qvm-trim-template kali-rolling
+		qvm-grow-private kali-rolling 29GB
+7.) Qubes Menu -> Template: kali-rolling -> kali-rolling: Terminal
+	(or command: qvm-run -a kali-rolling gnome-terminal) (from dom0)
+	7a.) Enter the following command:
+		sudo apt install kali-linux-full
+itsdone.gif
+
+Part III: Bugfixes
+0.) Fix pipe (|) and backslash (\) not mapped correctly (5)
+	0a.) Qubes Menu -> Terminal Emulator (dom0)
+	0b.) Enter these commands:
+		sudo setkeycodes 56 43
+		sudo systemctl status rc-local
+		sudo nano /etc/rc.d/rc.local
+			setkeycodes 56 43
+			exit 0
+		sudo chmod 750 /etc/rc.d/rc.local
+	0c.) Another option to fix this is (6)
+1.) Fix mariadb-server install in Kali (7)
+	BUT HOW?
+
+Sources:
+1. https://github.com/QubesOS/qubes-issues/issues/3050#issuecomment-325850682
+2. https://forums.puri.sm/t/librem-13v2-qubes-stuck-at-booting-from-hard-disk-after-install/1072
+3. https://www.reddit.com/r/Qubes/comments/7jeq9j/qubes_32_on_a_librem_15_v3_boot_issues/dr7tsqw/
+4. https://www.qubes-os.org/doc/pentesting/kali/#kali-linux-templatevm-from-a-debian-template--
+5. https://forums.puri.sm/t/keyboard-layout-unable-to-recognize-pipe/2022/3
+6. https://forums.puri.sm/t/keyboard-layout-unable-to-recognize-pipe/2022/10
+7. ?????
