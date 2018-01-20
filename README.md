@@ -34,14 +34,35 @@ Soon to be updated.
 ```apt install cmatrix```
 Bottom-middle in image, terminal that simulates the display from "The Matrix"
 
-##get-figlet.sh
-Not shown in image, it installs ASCII art generator and font files from [textfiles.com](http://textfiles.com)
-	
-##get-buuf.sh
-Not shown in image, it downloads, installs and applies Buuf icon theme for GNOME desktop
+Utility Scripts
+================
+
+##wgetall.sh
+Utility script to download all files of a given extension from a single web page.
 
 ##get-sublime.sh
 I don't practice santeria, I ain't got no crystal ball, if I had a million dollars, well...
 
-##wgetall.sh
-Utility script to download all files of a given extension from a single web page.
+##get-figlet.sh
+Script to install ASCII art generator and font files from [textfiles.com](http://textfiles.com)
+	
+##get-buuf.sh
+Script to download, install and applies Buuf icon theme for GNOME desktop
+
+Righteous Hax
+==============
+
+##xerxes.c
+from [pastebin](https://pastebin.com/EZ6PCF0Z)
+
+##hax11.py
+from [aahideaway](https://aahideaway.blogspot.com/2017/09/hax11-released-bsides-stl.html)
+
+##bootyquest.sh
+from [aahideaway](https://aahideaway.blogspot.com/2017/07/introducing-booty-quest.html)
+
+Notes
+======
+
+##qubes-install.txt
+Getting Qubes running like I wanted was so hard, I took notes to help other people.
