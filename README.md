@@ -37,16 +37,16 @@ Bottom-middle in image, terminal that simulates the display from "The Matrix"
 Utility Scripts
 ================
 
-##wgetall.sh
+## wgetall.sh
 Utility script to download all files of a given extension from a single web page.
 
-##get-sublime.sh
+## get-sublime.sh
 I don't practice santeria, I ain't got no crystal ball, if I had a million dollars, well...
 
-##get-figlet.sh
+## get-figlet.sh
 Script to install ASCII art generator and font files from [textfiles.com](http://textfiles.com)
 	
-##get-buuf.sh
+## get-buuf.sh
 Script to download, install and applies Buuf icon theme for GNOME desktop
 
 Righteous Hax
