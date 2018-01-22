@@ -26,6 +26,7 @@ Part I: Qubes Install
 	4c.) ALT+TAB (anaconda shell) enter:
 		reboot
 5.) Reboot and follow the rest of the Qubes installation
+	5a.) Enter encryption passphrase if you set one
 6.) Get the WiFi working:
 	6a.) Right-click on sys-net in Qubes VM Manager, select VM settings (3)
 	6b.) Under the Services tab, make sure that network-manager is added and enabled
