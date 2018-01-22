@@ -5,7 +5,7 @@ Part I: Qubes Install
 
 0.) ESC to get to boot menu
 1.) Use Qubes 3.2 (stable release)
-2.) Boot to USB install, then: (1)
+2.) If need to wipe disk, boot to USB install, then: (1)
 	2a.) CTRL+ALT+F2 (get terminal)
 	2b.) Enter the following commands (reformat):
 		parted /dev/sda mklabel gpt
