@@ -1,6 +1,7 @@
 ![Example](http://i.imgur.com/pQT0l.gif)
 
-# rice
+rice
+=====
 A dump of scripts that are used for fun/rice, all for h4ack$.\
 Also a series of utility scripts and other collected scripts.
 
@@ -45,6 +46,9 @@ Utility script to download all files of a given extension from a single web page
 ## get-john-rules.sh
 Script to download and install Hob0Rules and OneRuleToRuleThemAll for john the ripper
 
+## get-openvas.sh
+Script to install the Open Vulnerability Assessment System (OpenVAS) and create Super Admin user
+
 ## get-sublime.sh
 I don't practice santeria, I ain't got no crystal ball, if I had a million dollars, well...
 
@@ -52,7 +56,7 @@ I don't practice santeria, I ain't got no crystal ball, if I had a million dolla
 Script to install ASCII art generator and font files from [textfiles.com](http://textfiles.com)
 	
 ## get-buuf.sh
-Script to download, install and applies Buuf icon theme for GNOME desktop
+Script to download, install and apply Buuf icon theme for GNOME desktop
 
 ## fix-purism.sh
 Script to fix the \ (backslash) and | (pipe) key on Purism laptops
