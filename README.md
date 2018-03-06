@@ -1,6 +1,8 @@
-# rice
-A dump of scripts that are used for fun/rice, all for h4ack$.
 ![Example](http://i.imgur.com/pQT0l.gif)
+
+# rice
+A dump of scripts that are used for fun/rice, all for h4ack$.\
+Also a series of utility scripts and other collected scripts.
 
 ## 256color.pl
 Not shown in image, makes a simple 256 color rectangle to test if terminals have 256 color compatibility.
@@ -8,7 +10,7 @@ Not shown in image, makes a simple 256 color rectangle to test if terminals have
 ## 3spooky.lua
 Top-middle in image, if I recall correctly, some guy on 4chan posted it on [Pastebin](http://pastebin.com/brwgHnCq) and I just reuploaded it here.
 
-##h ack.exe
+## hack.exe
 Middle-left in image, a bash script I made when bored, might not always get IP addresses right, otherwise it should work for everything else.
 
 ## hackertyper.sh
@@ -28,7 +30,7 @@ An upgraded version of hack.exe
 - 100% stupid
 
 Written in C, compile with -lpthread.
-Soon to be updated.
+Soon to be updated?
 
 ## cmatrix
 ```apt install cmatrix```
@@ -38,7 +40,10 @@ Utility Scripts
 ================
 
 ## wgetall.sh
-Utility script to download all files of a given extension from a single web page.
+Utility script to download all files of a given extension from a single web page
+
+## get-john-rules.sh
+Script to download and install Hob0Rules and OneRuleToRuleThemAll for john the ripper
 
 ## get-sublime.sh
 I don't practice santeria, I ain't got no crystal ball, if I had a million dollars, well...
@@ -49,17 +54,23 @@ Script to install ASCII art generator and font files from [textfiles.com](http:/
 ## get-buuf.sh
 Script to download, install and applies Buuf icon theme for GNOME desktop
 
+## fix-purism.sh
+Script to fix the \ (backslash) and | (pipe) key on Purism laptops
+
 Righteous Hax
 ==============
 
-## xerxes.c
-from [pastebin](https://pastebin.com/EZ6PCF0Z)
+## bootyquest.sh
+A shell script to look for "low hanging fruit" such as open SMB shares, etc.\
+from [aahideaway](https://aahideaway.blogspot.com/2017/07/introducing-booty-quest.html)
 
-## hax11.py
+## haX11.py
+A python script to interact with open X11 instances (default port 6000)\
 from [aahideaway](https://aahideaway.blogspot.com/2017/09/hax11-released-bsides-stl.html)
 
-## bootyquest.sh
-from [aahideaway](https://aahideaway.blogspot.com/2017/07/introducing-booty-quest.html)
+## xerxes.c
+A DoS program, alledgedly written by [@th3j35t3r](https://twitter.com/th3j35t3r)\
+from [pastebin](https://pastebin.com/EZ6PCF0Z)
 
 Notes
 ======
