@@ -34,11 +34,12 @@ Written in C, compile with -lpthread.
 Soon to be updated?
 
 ## cmatrix
-```apt install cmatrix```
+```sudo apt install cmatrix```
 Bottom-middle in image, terminal that simulates the display from "The Matrix"
 
 Utility Scripts
 ================
+most of these are for Kali Linux
 
 ## wgetall.sh
 Utility script to download all files of a given extension from a single web page
