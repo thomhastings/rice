@@ -6,6 +6,7 @@
 apt install -y openvas
 # setup OpenVAS
 openvas-setup
+echo "That password is too long! Let's change it..."
 # we want to be Super Admin not Admin, with easy pass
 openvasmd --delete-user=admin
 openvasmd --create-user=admin --role="Super Admin"
