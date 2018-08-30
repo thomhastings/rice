@@ -2,9 +2,9 @@
 ###########
 #
 # Get Kali Isometric Wallpaper & Lock Screen Script
-# (c) Thom Hastings 2017
+# (c) Thom Hastings 2018
 # BSD 3-clause License
-# tested Kali 2016.2
+# tested Kali 2018.2
 #
 ###########
 echo "Get Kali Isometric Wallpaper & Lock Screen:\n"
