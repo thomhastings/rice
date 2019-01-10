@@ -20,6 +20,11 @@
 # Recall Fins on Rockets, both directions, top & bottom h/t SpaceX
 # Single-stage to orbit Space Planes h/t Millenium Twain on fBook
 # Did the math, Space Shuttles are the easy ones out of Kwajelein
+# Don't forget plasma, and 
+# Stealth tools of the trade:
+# Iron-oxide paint, NO 3-WAY RIGHT-ANGLES (RADAR REFLECTOR)
+# SR-71 Blackbird was originally the A-12 Oxcart
+# Think X-series planes...
 ./firefox https://en.wikipedia.org/wiki/Northrop_YB-49 &
 ./firefox https://en.wikipedia.org/wiki/Spruce_goose &
 ./firefox https://en.wikipedia.org/wiki/Consolidated_PBY_Catalina &
@@ -35,3 +40,21 @@ echo "We have to get these disarmed, up & running!" && sleep 9 &
 ./firefox https://en.wikipedia.org/wiki/Yankee_Lady &
 ./firefox https://en.wikipedia.org/wiki/Boeing_B-17_Flying_Fortress &
 ./firefox https://en.wikipedia.org/wiki/Boeing_307_Stratoliner &
+./firefox https://en.wikipedia.org/wiki/Boeing_XB-38_Flying_Fortress &
+./firefox https://en.wikipedia.org/wiki/Boeing_YB-40_Flying_Fortress &
+./firefox https://en.wikipedia.org/wiki/Lockheed_Model_9_Orion &
+./firefox https://en.wikipedia.org/wiki/Ultralight_aviation &
+./firefox https://en.wikipedia.org/wiki/Powered_paragliding &
+./firefox "https://en.wikipedia.org/wiki/Glider_(sailplane)" &
+sleep 1
+./firefox https://en.wikipedia.org/wiki/Land_sailing &
+sleep 2
+./firefox http://www.turfdog.co.uk &
+sleep 3
+./firefox http://blackhawkparamotor.com/packages/ &
+./firefox https://www.highaltitudescience.com/collections/near-space-balloons &
+./firefox https://www.instructables.com/id/SteamPunkLandSailer/ &
+sleep 9
+./firefox https://www.hhokitsdirect.com &
+sleep 18
+exit 0
