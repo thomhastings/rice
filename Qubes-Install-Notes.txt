@@ -1,8 +1,17 @@
-Hardware: Purism Librem 13 v2
-Make sure WiFi switch is on
+Hardware: Purism Librem 13 v2 w/ TPM & VT-x & VT-d all enabled
+(update) 1/10/2019
+Part 0: Qubes 4.x.?
 
-Part I: Qubes Install
+Qubes 4 required me to flash a magic blob of Intel
+that I found on the Internet, and hacked up the -
+Purism-released script to utilize, as the Purism
+script had been written to pull from mega.co.nz
 
+{whatCanIsayExceptYou'reWelcome.gif}
+-={[(The Qubes Operating System)]}=-
+(pebkac) Make sure WiFi switch is on
+
+PartI:QubesInstall(NB:dated-Qubes 3.2 notes only_-\/-_)
 0.) ESC to get to boot menu
 1.) Use Qubes 3.2 (stable release)
 2.) If need to wipe disk, boot to USB install, then: (1)
@@ -34,12 +43,8 @@ Part I: Qubes Install
 		Network Connections (Available > Selected)
 	6d.) Qubes Menu -> ServiceVM: sys-net -> sys-net: Network Connections
 		(configure WiFi)
-
 Intermission: Cold (not soft) reboot and let Whonix install
-itsworking.gif
-
 Part II: Kali Install (4)
-
 0.) Qubes Menu -> Terminal Emulator (dom0)
 	0a.) Enter this command:
 		qvm-clone debian-8 kali-rolling
@@ -80,8 +85,6 @@ Part II: Kali Install (4)
 	(or command: qvm-run -a kali-rolling gnome-terminal) (from dom0)
 	7a.) Enter the following command:
 		sudo apt install kali-linux-full
-itsdone.gif
-
 Part III: Bugfixes
 0.) Fix pipe (|) and backslash (\) not mapped correctly (5)
 	0a.) Qubes Menu -> Terminal Emulator (dom0)
@@ -94,8 +97,6 @@ Part III: Bugfixes
 		sudo chmod 750 /etc/rc.d/rc.local
 	0c.) Another option to fix this is (6)
 1.) Fix mariadb-server install in Kali (7)
-	BUT HOW?
-
 Sources:
 1. https://github.com/QubesOS/qubes-issues/issues/3050#issuecomment-325850682
 2. https://forums.puri.sm/t/librem-13v2-qubes-stuck-at-booting-from-hard-disk-after-install/1072
@@ -103,4 +104,5 @@ Sources:
 4. https://www.qubes-os.org/doc/pentesting/kali/#kali-linux-templatevm-from-a-debian-template--
 5. https://forums.puri.sm/t/keyboard-layout-unable-to-recognize-pipe/2022/3
 6. https://forums.puri.sm/t/keyboard-layout-unable-to-recognize-pipe/2022/10
-7. ?????
+7. ????????
+8. PROFIT!

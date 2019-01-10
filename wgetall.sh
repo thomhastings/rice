@@ -1,6 +1,7 @@
 #!/bin/sh
 # wgetall script
-# (c) Thom Hastings 2012-2017 New BSD License
+# (c) Thom Hastings 2012-2019 New BSD License || AGPL
+# got sick and tired of googling "mp3 blogs and wget"
 # TODO: allow multiple extension arguments (e.g. mp3,wav,flac)
 if [[ "$1" == "" ]] ; then
   echo "Usage: ./wgetall.sh [EXT] [URL]     -- wgets all files of extension EXT from base URL."
