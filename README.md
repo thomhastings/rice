@@ -77,6 +77,10 @@ from [aahideaway](https://aahideaway.blogspot.com/2017/09/hax11-released-bsides-
 A DoS program, alledgedly written by [@th3j35t3r](https://twitter.com/th3j35t3r)\
 from [pastebin](https://pastebin.com/EZ6PCF0Z)
 
+## respin*.deb
+"Linux Respin" is a fork of an older project that used to be called 'remastersys'
+It is a way to take an image (.iso) of a currently running system. mirrored from gitLab
+
 Notes
 ======
 
