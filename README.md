@@ -65,6 +65,10 @@ Script to fix the \ (backslash) and | (pipe) key on Purism laptops
 Righteous Hax
 ==============
 
+## sdmem.sh
+One of tails' features is that it wipes RAM after shutdown,\
+reimplemented by KanedaSan (Josh Beguilter)
+
 ## bootyquest.sh
 A shell script to look for "low hanging fruit" such as open SMB shares, etc.\
 from [aahideaway](https://aahideaway.blogspot.com/2017/07/introducing-booty-quest.html)
