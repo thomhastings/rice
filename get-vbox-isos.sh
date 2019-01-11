@@ -55,12 +55,10 @@ firefox https://tails.boum.org/install/download/index.en.html &
 # Privacy & Anonymity focused distro, runs Tor, wipes RAM after shutdown, etc.
 ##############################################################################
 #xerxes.c									[pastebin]
-# apt install build-essential
-gcc -o xerxes xerxes.c
-./xerxes tanto.li 80
-# written by @th3j35t3r (Tom Ryan) & leaked by @AnonymouSabu (xavsec.blogspot.com)
+# sudo apt install build-essential
+#gcc -o xerxes xerxes.c
+#./xerxes tanto.li 80 # plz don't actually do this I host my distro here *sweat*
 ##################################################################################
-# since we're naming names Jacob Applebaum did the work for Cold Boot & Evil Maids
 # h\t || h/t == hat-tip: credit where credit is due is what makes meritocracy work
 ##################################################################################
 # Qubes-OS.org
