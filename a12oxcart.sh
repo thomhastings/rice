@@ -28,8 +28,9 @@
 ./firefox https://en.wikipedia.org/wiki/Northrop_YB-49 &
 ./firefox https://en.wikipedia.org/wiki/Spruce_goose &
 ./firefox https://en.wikipedia.org/wiki/Consolidated_PBY_Catalina &
-echo "We have to get these disarmed, up & running!" && sleep 9 &
+echo "We have to get these disarmed, up & running!" && sleep 3 &
 ./firefox https://en.wikipedia.org/wiki/List_of_surviving_Consolidated_PBY_Catalinas &
+sleep 9 &
 ./firefox https://en.wikipedia.org/wiki/Grumman_HU-16_Albatross &
 ./firefox https://en.wikipedia.org/wiki/RQ-170_Sentinel &
 ./firefox https://en.wikipedia.org/wiki/Aerospike_engine &

