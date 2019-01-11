@@ -43,14 +43,13 @@ git clone https://github.com/derv82/wifite2 &
 #mkdir hax
 #cd hax
 #kali-*.iso								kali.org
-#wget -c ###TODO://PLACEHOLDER###
+wget -c cdimage.kali.org/kali-2018.4/kali-linux-light-2018.4-amd64.iso
 firefox https://github.com/Security-Onion-Solutions/security-onion/blob/master/Verify_ISO.md#160455-iso-image-built-on-20181212 &
 # Previously BackTrack, a distro based on Auditor, Whax... & WifiSlax/Knoppix...
 #             🙏MUTS🙇                    remote-exploit.org;backtrack-linux.org
 # Penetration testing "swiss-army knife" w/ over 500 tools... incl. wifite.py
 #############################################################################
 #tails-*.iso								tails.boum.org
-###todo://placeholder###
 wget -c https://tails.as1101.net/tails/stable/tails-amd64-3.11/tails-amd64-3.11.iso &
 firefox https://tails.boum.org/install/download/index.en.html &
 # Privacy & Anonymity focused distro, runs Tor, wipes RAM after shutdown, etc.
@@ -72,3 +71,4 @@ gcc -o xerxes xerxes.c
 #################################################################################
 # Just try to remember it's CTRL+SHIFT+V and CTRL+SHIFT+P to Cut & Paste vm-to-vm
 #################################################################################
+wget -c https://mirrors.edge.kernel.org/qubes/iso/Qubes-R4.0.1-x86_64.iso
