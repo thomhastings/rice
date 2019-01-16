@@ -7,7 +7,7 @@ wget -c https://github.com/dtag-dev-sec/tpotce/releases/download/18.11/tpot.iso 
 #tpot.iso	https://github.com/dtag-dev-sec/tpotce #bitch
 git clone https://github.com/dtag-dev-sec/tpotce tpot-multi-honeypot
 firefox https://n0where.net/multi-honeypot-platform & #biotch
-wget -c https://lab26.net/static/files/Lab26.zip -O Lab26_WebApp-CyberFiringRange.zip &
+wget -c https://lab26.net/static/files/Lab26.zip -O Lab26_1.1WebApp-CyberFiringRange.zip &
 echo "Opening GitHub in FireFox:"
 firefox https://github.com/dtag-dev-sec/tpotce &
 echo "renaming "tpot.iso" to "tpot-multi-honeypot.iso ..."
@@ -38,7 +38,8 @@ git clone https://github.com/derv82/wifite2 &
 # Wifite.py is the best way to Crack WiFi short of the KRACK attack: krackattacks.com
 #####################################################################################
 # THE'FUN'STUFF # DANGER ZONE! # GONNA TAKE A RIDE INTO THE DANGER ZONE! DANGER ZONE!
-# "Are we still doing phrasing? Because if we stopped doing phrasing and nobody told
+# http://blog.rootcon.org/2012/02/10-pentesting-linux-distributions-you.html <3 > *
+# "Are we still doing phrasing? Because if we stopped doing phrasing and nobody told"
 #####################################################################################
 #mkdir hax
 #cd hax
