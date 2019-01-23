@@ -1,17 +1,13 @@
 #!/bin/sh
-#bish I been bash'n away in the Bourne Again Shell!
+#I been bash'n away in the Bourne Again Shell!
 # mac? brew install wget
 # deb? apt install wget
-# else? fuck you. *nix
 wget -c https://github.com/dtag-dev-sec/tpotce/releases/download/18.11/tpot.iso -O tpot-multi-honeypot.iso
-#tpot.iso	https://github.com/dtag-dev-sec/tpotce #bitch
-git clone https://github.com/dtag-dev-sec/tpotce tpot-multi-honeypot
-firefox https://n0where.net/multi-honeypot-platform & #biotch
-wget -c https://lab26.net/static/files/Lab26.zip -O Lab26_1.1WebApp-CyberFiringRange.zip &
-echo "Opening GitHub in FireFox:"
-firefox https://github.com/dtag-dev-sec/tpotce &
-echo "renaming "tpot.iso" to "tpot-multi-honeypot.iso ..."
-mv tpot.iso tpot-multi-honeypot.iso
+#tpot.iso	https://github.com/dtag-dev-sec/tpotce
+git clone https://github.com/dtag-dev-sec/tpotce &
+firefox https://n0where.net/multi-honeypot-platform &
+#Lab26.zip	https://www.vulnhub.com/entry/lab26-11,190/
+wget -c https://lab26.net/static/files/Lab26.zip -O Lab26_1.1WebApp-CyberFiringRange.zip
 # T-Pot is a multi-honeypot (US:DoD:DMZ_ONLY.)(T-MobileSponsored)
 #################################################################
 #gsm_ce_*.iso					#a.k.a. OpenVAS Open-Source Nessus fork
@@ -19,19 +15,17 @@ mv tpot.iso tpot-multi-honeypot.iso
 firefox https://www.greenbone.net/en/install_use_gce/ &
 sleep 9
 wait 9
-wget -c https://dl.greenbone.net/download/VM/gsm-ce-4.2.24.iso &
+wget -c https://dl.greenbone.net/download/VM/gsm-ce-4.2.24.iso
 echo "Opening Greenbone Forums https://community.greenbone.net"
 firefox https://community.greenbone.net/ &
 echo "Yet Another Shameless Plug for Greenbone:"
 firefox https://www.greenbone.net/en/community-edition/ &
 #######################################################################################
 #securityonion*.iso							securityonion.net
-wget -c https://github.com/Security-Onion-Solutions/security-onion/releases/download/v16.04.5.5_20181212/securityonion-16.04.5.5.iso &
+wget -c https://github.com/Security-Onion-Solutions/security-onion/releases/download/v16.04.5.5_20181212/securityonion-16.04.5.5.iso
 # Security Onion is a virtual firewall "appliance" (contains Suricata, Sagan, and Snort.)
 # N.B: Should also be deployed on either end of the DMZ, for proper Zone Segmentation
 #####################################################################################
-mkdir c0de &
-cd code &
 git clone https://github.com/derv82/wifite2 &
 #cd wifite2
 #sudo python Wifite2.py
@@ -41,27 +35,19 @@ git clone https://github.com/derv82/wifite2 &
 # http://blog.rootcon.org/2012/02/10-pentesting-linux-distributions-you.html <3 > *
 # "Are we still doing phrasing? Because if we stopped doing phrasing and nobody told"
 #####################################################################################
-#mkdir hax
-#cd hax
 #kali-*.iso								kali.org
 wget -c cdimage.kali.org/kali-2018.4/kali-linux-light-2018.4-amd64.iso
 firefox https://github.com/Security-Onion-Solutions/security-onion/blob/master/Verify_ISO.md#160455-iso-image-built-on-20181212 &
 # Previously BackTrack, a distro based on Auditor, Whax... & WifiSlax/Knoppix...
 #             🙏MUTS🙇                    remote-exploit.org;backtrack-linux.org
 # Penetration testing "swiss-army knife" w/ over 500 tools... incl. wifite.py
+git clone https://github.com/brainfucksec/kalitorify &
 #############################################################################
 #tails-*.iso								tails.boum.org
 wget -c https://tails.as1101.net/tails/stable/tails-amd64-3.11/tails-amd64-3.11.iso &
 firefox https://tails.boum.org/install/download/index.en.html &
 # Privacy & Anonymity focused distro, runs Tor, wipes RAM after shutdown, etc.
 ##############################################################################
-#xerxes.c									[pastebin]
-# sudo apt install build-essential
-#gcc -o xerxes xerxes.c
-#./xerxes tanto.li 80 # plz don't actually do this I host my distro here *sweat*
-##################################################################################
-# h\t || h/t == hat-tip: credit where credit is due is what makes meritocracy work
-##################################################################################
 # Qubes-OS.org
 ##############
 # A newcomer to the game, this Snowden-tested-Mother-approved Operating System...
@@ -71,3 +57,4 @@ firefox https://tails.boum.org/install/download/index.en.html &
 # Just try to remember it's CTRL+SHIFT+V and CTRL+SHIFT+P to Cut & Paste vm-to-vm
 #################################################################################
 wget -c https://mirrors.edge.kernel.org/qubes/iso/Qubes-R4.0.1-x86_64.iso
+echo "Done!"
