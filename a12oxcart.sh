@@ -618,6 +618,7 @@ sleep 9 &
 ./firefox https://en.wikipedia.org/wiki/Lockheed_Model_9_Orion &
 ./firefox https://en.wikipedia.org/wiki/Ultralight_aviation &
 ./firefox https://en.wikipedia.org/wiki/Powered_paragliding &
+./firefox https://en.wikipedia.org/wiki/MIT_Daedalus &
 ./firefox "https://en.wikipedia.org/wiki/Glider_(sailplane)" &
 sleep 1
 #./firefox https://en.wikipedia.org/wiki/Land_sailing &
