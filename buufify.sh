@@ -15,5 +15,4 @@ cd /usr/share/backgrounds
 sudo wget -c -O wallpaper.jpg https://pix.toile-libre.org/upload/original/1253647589.jpg
 #mv wallpaper.jpg /usr/share/backgrounds
 cp wallpaper.jpg ~/Pictures
-# Calls "get-buuf.sh" for GNOME Icons:
-bash get-buuf.sh &
+
