@@ -85,30 +85,30 @@
 # ---------------------------------------------------------------------
 # Holloman AFB
 #    Location: New Mexico.  Preconceived landing 15 years ago.
-
+#
 # DDN Locations:
 # --------------
-
+#
 # NET : 132.5.0.0 : HOLLOMAN :
-
+#
 # GATEWAY : 26.9.0.74, 132.5.0.1 : HOLLOMAN-GW.AF.MIL : CISCO-MGS :: EGP,IP/GW :
 # GATEWAY : 26.9.0.74, 132.5.0.1 : HOLLOMAN-GW.AF.MIL : CISCO-MGS :: EGP,IP/GW :
-
+#
 # HOST : 26.10.0.74 : HOLLOMAN-TG.AF.MIL : VAX-8650 : VMS : TCP/FTP,TCP/TELNET,TCP
 #        SMTP :
-
+#
 # HOST : 26.6.0.74 : HOLLOMAN-AM1.AF.MIL : WANG-VS100 : VSOS : TCP/TELNET,TCP/FTP,
 #        TCP/SMTP :
-
+#
 # Host: DDNVAX2.6585TG.AF.MIL
 #       156.6.1.2
-
+#
 # -----------------------------------------------------------------------
-
+#
 # Kirtland Air Force Base
 #     Office Of Special Investigations.  Sandia Labs are here. Also part of
 #     NSA Intercept Equipment Division. #See also "Room 641A on Wikipedia"
-
+#
 # Key Words/names:
 # ----------------
 # Sandia Labs
@@ -116,10 +116,17 @@
 # Paul Bennewitz
 # Project Blue
 # Project Blue Book
+<<<<<<< HEAD
 
 #DDN Locations:
 #--------------
 
+=======
+#
+#DDN Locations:
+#--------------
+#
+>>>>>>> refs/remotes/origin/master
 #NET : 131.23.0.0 : KIRTLAND-NET :
 #NET : 132.62.0.0 : KIRTLAND2 :
 #GATEWAY : 26.17.0.48, 131.23.0.1 : KIRTLAND2-GW.AF.MIL,KIRTLAND-GW.AF.MIL
@@ -298,8 +305,13 @@
 #NET : 22.0.0.0 : DISNET :
 #
 #-----------------------------------
+<<<<<<< HEAD
 #The following is an excerpt from...
 #The annals of famously infamous Phrack Magazine, the e-zine for Phone Phreaks!!!
+=======
+#
+#
+>>>>>>> refs/remotes/origin/master
 #--------------------------------------------------------------------------------
 #
 #
@@ -467,6 +479,10 @@
 #
 #
 #VIII. International
+<<<<<<< HEAD
+=======
+#
+>>>>>>> refs/remotes/origin/master
 #Belgian Air Force.  (They are going public and have records.
 #Press conference held 7/12/91.)
 #Australian Air Force
@@ -476,6 +492,7 @@
 #NATO Radar Stations
 #
 #
+<<<<<<< HEAD
 # IX. UFO Civilian Groups. (What do they really know?)
 # 
 # NICAP, National Investigations Committee on Aerial Phenomena
@@ -509,6 +526,41 @@
 #
 # Presidential Libraries
 # Old USAAF, (United States Army Air Force)
+=======
+#IX. UFO Civilian Groups. (What do they really know?)
+#
+#NICAP, National Investigations Committee on Aerial Phenomena
+#(private company.)
+#
+#APRO, Tucson, AZ (Aerial Phenomona Research Organization,
+#private company.)
+#
+#MUFON Mutual UFO Network
+#
+#X. GENERAL
+#
+#Kenneth Arnold, June 24, 1947
+#Cattle and Sheep Mutilations
+#General and Pres. Eisenhower, (private files and library)
+#President Truman
+#Wright Field or Wright Patterson Air Force Base, Dayton, OH, (Air
+#Force Foriegn Technology Division)
+#USAF Project Saint
+#USAF Project Gemini
+#Project Moon Dust
+#Project Sign
+#Project Grudge
+#General Hoyt Vandenberg (1940-1960)
+#Air Force Regulation 200-2 (8/12/54)
+#Holloman AFB, NM
+#Roswell, NM July 7, 1947
+#
+#
+#XI. Possible Searches
+#
+#Presidential Libraries
+#Old USAAF, (United States Army Air Force)
+>>>>>>> refs/remotes/origin/master
 # NASA
 # Astronaut Frank Borman, Gemini 7, pictures of UFO
 # Neil Armstrong, Apollo 11, saw UFO's on moon.

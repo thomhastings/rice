@@ -3,7 +3,7 @@ echo "Get & Configure Tilda script"
 echo "(c) Thom Hastings 2018 New BSD license"
 echo
 echo "Installing Tilda..."
-sudo apt install -y tilda guake
+sudo apt install -y tilda guake tree
 echo
 echo "Writing Tilda config_0..."
 if [ ! -d ~/.config/tilda ]; then
