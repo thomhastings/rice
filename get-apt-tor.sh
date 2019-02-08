@@ -14,5 +14,5 @@ if [ ! -e "/etc/apt/sources.list.d"]; then:
 	exit 0;
 	else;
 cd /etc/apt/sources.list.d
-#TODO: Recurse!
+#TODO? apt install tree; Recurse! (Binary search)
 sudo sed -i -e 's/http/tor/g' *
