@@ -3,11 +3,11 @@ sh
 *.zip
 *.iso
 firefox
-wifite2
-kalitorify
-kali
-tails
-tpotce
+wifite2/
+kalitorify/
+kali/
+tails/
+tpotce/
 find_mp3_duplicates
 sources.list
 
