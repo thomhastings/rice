@@ -1,4 +1,5 @@
 sh
+.gz
 *.swp
 *.zip
 *.iso

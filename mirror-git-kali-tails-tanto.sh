@@ -24,7 +24,7 @@ sleep 1
 mkdir kali
 echo "Mirroring or updating all Kali packages via git..."
 cd kali
-for LINE in `curl http://git.kali.org/gitweb/?a=project_index | sort`
+for LINE in `curl http://git.kali.org/gitweb/?a=project_index | sort | cut -d " " -f 1`
 do
 	if [ ! -e "kali/`echo $LINE | awk -F. '{print $1}'`" ]
 	then
