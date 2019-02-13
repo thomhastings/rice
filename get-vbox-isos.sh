@@ -1,4 +1,5 @@
 #!/bin/sh
+git clone https://github.com/LionSec/katoolin
 #I been bash'n away in the Bourne Again Shell!
 # mac? brew install wget
 # deb? apt install wget
