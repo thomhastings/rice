@@ -18,5 +18,7 @@
 # Author: kaneda (kanedasan@gmail.com)
 # Date: April 27th 2013
 
+# Requires: sudo apt-get install secure-delete
+
 # Wipe the memory quickly
 sdmem -ll
