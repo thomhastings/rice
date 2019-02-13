@@ -2,8 +2,9 @@
 # install & configure Tor script
 # (c) Thom Hastings 2019 GNU AGPL
 #     Lovingly coded for Debian*nix
+#     suggest runing get-netselect-apt.sh 1st
 # install apt-transport-tor, also installs tor
-sudo apt install -y apt-transport-tor tor torsocks privoxy proxychains usewithtor
+sudo apt-get install -y apt-transport-tor tor torsocks privoxy proxychains usewithtor
 # reconfigure /etc/apt/sources.list to use tor
 sudo sed -i -e 's/http/tor/g' /etc/apt/sources.list
 # this only works for http (not https)

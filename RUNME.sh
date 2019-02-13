@@ -3,7 +3,7 @@ ls -alph &
 perl 256color.pl &
 sleep 9
 clear &
-sudo dpkg -i respin*.deb -y &
+#sudo dpkg -i respin*.deb -y &
 echo "Testing Colour Palette..."
 perl 256color.pl &
 wait 9
