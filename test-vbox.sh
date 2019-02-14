@@ -7,6 +7,10 @@ cd /tmp
 wget -c -N https://www.virtualbox.org/download/oracle_vbox.asc
 sudo rpm --import oracle_vbox.asc
 rm oracle_vbox.asc
+# adding the 2016 key just for good measure
+wget -c -N https://www.virtualbox.org/download/oracle_vbox_2016.asc
+sudo rpm --import oracle_vbox_2016.asc
+rm oracle_vbox_2016.asc
 wget -c -N https://download.virtualbox.org/virtualbox/6.0.4/VirtualBox-6.0-6.0.4_128413_fedora26-1.x86_64.rpm
 sudo rpm --checksig VirtualBox-6.0-6.0.4_128413_fedora26-1.x86_64.rpm
 sudo dnf install VirtualBox-6.0-6.0.4_128413_fedora26-1.x86_64.rpm
