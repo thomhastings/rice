@@ -27,8 +27,35 @@ echo
 echo "Forking latest live-build branch to build T.A.N.T.O..."
 git checkout --track $REMOTE
 echo
-git add *
 sleep 0.5
+echo
+echo "Checking for tails' build dependencies:"
+sudo apt install psmisc git rake libvirt-daemon-system dnsmasq-base ebtables qemu-system-x86 qemu-utils vagrant vagrant-libvirt vmdebootstrap
+echo "Did it work? Are you root?"
+sleep 0.3
+echo
+echo "Grabbing an icon..."
+curl https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Tanto_Kunimitsu.jpg/165px-Tanto_Kunimitsu.jpg > mini-tanto.jpg
+git add *
+sleep 0.1
+echo
+echo "Restarting libvirtd..."
+sudo systemctl restart libvirtd
+echo
+sleep 0.5
+echo
+echo "Running additional checks for Tails' build system..."
+echo
+#!/bin/bash
+# Trying this from tails' documentation
+for group in kvm libvirt libvirt-qemu ;
+do
+	sudo adduser "$(whoami)" "$group"
+done
+# That's supposed to set the righ permissions, right there^
+echo
+sleep 0.8
+echo
 echo "Creating new branch \"Tanto\" for T.A.N.T.O. Linux..."
 git branch tanto
 echo "Done working with the \`tails\` repo!"
