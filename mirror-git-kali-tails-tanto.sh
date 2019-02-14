@@ -1,12 +1,18 @@
-echo "Mirroring Tails' git index..."
-git clone https://git-tails.immerda.ch/tails
+echo "🗡️    "
+if [ ! -e tails ]
+then
+	pwd
+	echo "tails dir not found, ergo:"
+	echo "Cloning Tails' git index..."
+	git clone https://git-tails.immerda.ch/tails
+fi
 echo "Attempting to update tails..."
 cd tails
 git pull
 echo ""
-echo "Attempting to checkout devel branch..."
+echo "Attempting to checkout 'devel' branch..."
 git checkout devel
-echo "\e[37mUpdating sumodules\e[0m..."
+echo " Updating sumodules..."
 git submodule update --init
 echo ""
 echo "Checking for remote live-build branch..."
