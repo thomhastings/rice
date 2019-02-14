@@ -4,7 +4,7 @@
 #     Lovingly coded for Debian*nix
 #     suggest runing get-netselect-apt.sh 1st
 # install apt-transport-tor, also installs tor
-sudo apt-get install -y apt-transport-tor tor torsocks privoxy proxychains usewithtor
+sudo apt-get install -y apt-transport-tor tor torsocks privoxy proxychains #usewithtor
 # reconfigure /etc/apt/sources.list to use tor
 sudo sed -i -e 's/http/tor/g' /etc/apt/sources.list
 # this only works for http (not https)
@@ -13,7 +13,7 @@ sudo sed -i -e 's/http/tor/g' /etc/apt/sources.list
 # 1/10/2019 *Trying to fixthis now thru RECURSION!
 if [ ! -e "/etc/apt/sources.list.d"]; then:
 	exit 0;
-	else;
+fi
 cd /etc/apt/sources.list.d
-#TODO? apt install tree; Recurse! (Binary search)
+	#TODO? apt install tree; Recurse! (Binary search)
 sudo sed -i -e 's/http/tor/g' *
