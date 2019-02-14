@@ -11,8 +11,9 @@ sudo sed -i -e 's/http/tor/g' /etc/apt/sources.list
 #  and also only for base sources.list
 # (not e.g. sources.list.d/extras.list)
 # 1/10/2019 *Trying to fixthis now thru RECURSION!
-if [ ! -e "/etc/apt/sources.list.d"]; then:
-	exit 0;
+if [ ! -e "/etc/apt/sources.list.d" ]
+	then
+	exit 0
 fi
 cd /etc/apt/sources.list.d
 	#TODO? apt install tree; Recurse! (Binary search)
