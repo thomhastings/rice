@@ -21,7 +21,9 @@ git checkout --track $REMOTE
 echo "Creating new branch \"Tanto\" for T.A.N.T.O. Linux..."
 git branch tanto
 echo "Done working with the \`tails\` repo!"
+git status
 echo
+git branch
 cd ..
 sleep 9
 echo
