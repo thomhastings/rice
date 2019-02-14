@@ -66,6 +66,9 @@ Script to download, install and apply Buuf icon theme for GNOME desktop <3 [site
 Script to fix the \ (backslash) and | (pipe) key on Purism laptops  
 _You're welcome, Purism. Not trying to do your job for you, but..._
 
+## test-vbox.sh
+Script to install VirtualBox on Fedora 28
+
 Righteous Hax
 ==============
 
