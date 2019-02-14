@@ -12,7 +12,6 @@ sleep 0.1
 done
 sleep 9
 echo
-echo "Waiting for input or will automatically select latest..."
 echo "Forking latest live-build branch to build T.A.N.T.O..."
 git checkout --track $REMOTE
 echo "Creating new branch \"Tanto\" for T.A.N.T.O. Linux..."
@@ -20,7 +19,26 @@ git branch tanto
 echo "Done working with the \`tails\` repo!"
 echo
 cd ..
+sleep 9
 echo
+echo "=============================================="
+echo "T.A.N.T.O. is The Amnesic Toolkit for Offense."
+echo "=============================================="
+echo
+sleep 9
+echo
+echo "Checking dependencies..."
+echo
+sdmem
+sleep 1
+sudo apt install secure-delete -y
+which sdmem
+echo
+sleep 1
+echo "..."
+echo 
+wait 9
+sleep 1
 echo "Moving on to Kali..." && sleep 1
 echo "CTRL+C now before it tries to mirror all of Kali's repos."
 sleep 1
