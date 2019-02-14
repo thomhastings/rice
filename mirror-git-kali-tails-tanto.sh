@@ -27,6 +27,7 @@ echo
 echo "Forking latest live-build branch to build T.A.N.T.O..."
 git checkout --track $REMOTE
 echo
+git add *
 sleep 0.5
 echo "Creating new branch \"Tanto\" for T.A.N.T.O. Linux..."
 git branch tanto
@@ -45,16 +46,17 @@ sleep 9
 echo
 echo "Checking dependencies..."
 echo
-sdmem
+which sdmem
 sleep 1
 sudo apt install secure-delete -y
 which sdmem
+sdmem
 echo
 sleep 1
 echo "..."
 echo 
 sleep 3
-echo "<Insert Confetti Party Emojis Here>"
+echo "<Insert Confetti Party Emojis Here>🗡️   🗡️   🗡️   "
 sleep 1
 echo ""
 echo "Moving on to Kali..." && sleep 1
