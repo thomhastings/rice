@@ -3,6 +3,10 @@ git clone https://git-tails.immerda.ch/tails
 echo "Attempting to update tails..."
 cd tails
 git pull
+echo ""
+echo "Attempting to checkout devel branch..."
+git checkout devel
+echo ""
 echo "Checking for remote live-build branch..."
 git branch --list --remotes --all | grep live-build
 for REMOTE in `git branch --list --remotes --all | grep live-build`
@@ -21,9 +25,9 @@ echo
 cd ..
 sleep 9
 echo
-echo "=============================================="
-echo "T.A.N.T.O. is The Amnesic Toolkit for Offense."
-echo "=============================================="
+echo "   -==============================================-   "
+echo "T.A.N.T.O. is The Amnesic Network Toolkit for Offense."
+echo "   -==============================================-   "
 echo
 sleep 9
 echo
@@ -37,8 +41,10 @@ echo
 sleep 1
 echo "..."
 echo 
-wait 9
+sleep 3
+echo "<Insert Confetti Party Emojis Here>"
 sleep 1
+echo ""
 echo "Moving on to Kali..." && sleep 1
 echo "CTRL+C now before it tries to mirror all of Kali's repos."
 sleep 1
