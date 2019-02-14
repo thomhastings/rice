@@ -2,6 +2,7 @@
 # If you tried installing a custom .deb
 # and shit is f*cked, then try running this
 # script or these series of commands...
+rm -rf kali
 rm -rf tails
 sh mirror-git-kali-tails-tanto.sh 
 ls -alph
