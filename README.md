@@ -1,4 +1,4 @@
-![Example](http://i.imgur.com/pQT0l.gif)
+![HaxRadio](https://pbs.twimg.com/profile_images/1765985637/haxradio_400x400.png)
 
 rice
 =====
@@ -36,6 +36,8 @@ Written in C, compile with -lpthread.
 ## cmatrix
 ```sudo apt install cmatrix```
 Bottom-middle in image, terminal that simulates the display from "The Matrix"
+
+![Example](http://i.imgur.com/pQT0l.gif)
 
 Utility Scripts
 ================
