@@ -1,0 +1,9 @@
+[submodule "kali/kalitorify"]
+	path = kali/kalitorify
+	url = https://github.com/BrainFuckSec/kalitorify
+[submodule "kali/katoolin"]
+	path = kali/katoolin
+	url = https://github.com/LionSec/katoolin
+[submodule "kali/wifite2"]
+	path = kali/wifite2
+	url = https://github.com/derv82/wifite2
