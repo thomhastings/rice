@@ -1,5 +1,11 @@
 echo "Welcome to TANTO's builder & do-all script!"
 echo "🗡️    "
+echo ""
+sleep 1
+echo ""
+figlet -f graffiti "TANTO"
+echo "==================="
+echo "The Amnesic Network Toolkit for Offense"
 if [ ! -e tails ]
 then
 	pwd
