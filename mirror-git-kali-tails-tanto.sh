@@ -94,6 +94,25 @@ echo "<Insert Confetti Party Emojis Here>🗡️   🗡️   🗡️   "
 sleep 1
 echo ""
 echo "Moving on to Kali..." && sleep 1
+echo ""
+echo ""
+if [ ! -e 'kali' ]
+then
+	echo "no kali dir detected, ergo.."
+	echo "creating..."
+	mkdir kali
+	cd kali
+	pwd
+	cd ..
+fi
+echo ""
+echo "Getting some of my favourite submodules directly..."
+git submodule add -f https://github.com/BrainFuckSec/kalitorify kali/kalitorify
+git submodule add -f https://github.com/LionSec/katoolin kali/katoolin
+git submodule add -f https://github.com/derv82/wifite2 kali/wifite2
+echo "w00t w00t!"
+echo ""
+echo ""
 echo "CTRL+C now before it tries to mirror all of Kali\'s repos."
 sleep 1
 echo "9..."
