@@ -34,3 +34,6 @@
 [submodule "tails"]
 	path = tails
 	url = https://git-tails.immerda.ch/tails
+[submodule "knife"]
+	path = knife
+	url = https://github.com/kaneda/knife
