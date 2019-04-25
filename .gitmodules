@@ -1,4 +1,4 @@
-[submodule "kali/kalitorify"]
+
 	path = kali/kalitorify
 	url = https://github.com/BrainFuckSec/kalitorify
 [submodule "kali/katoolin"]
@@ -7,3 +7,18 @@
 [submodule "kali/wifite2"]
 	path = kali/wifite2
 	url = https://github.com/derv82/wifite2
+[submodule "bt5-scripts"]
+	path = bt5-scripts
+	url = https://github.com/thomhastings/bt5-scripts
+[submodule "tanto"]
+	path = tanto
+	url = https://github.com/thomhastings/tanto
+[submodule "ktanto"]
+	path = ktanto
+	url = https://github.com/ksoona/tanto
+[submodule "rice"]
+	path = rice
+	url = https://github.com/thomhastings/rice
+[submodule "ptf"]
+	path = ptf
+	url = https://github.com/trustedsec/ptf
