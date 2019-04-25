@@ -7,7 +7,7 @@ git status
 git submodule add -f https://github.com/thomhastings/bt5-scripts
 git submodule add -f https://github.com/derv82/wifite2
 git submodule add -f https://github.com/thomhastings/tanto
-git submodule add -f https://github.com/kanedasan/knife
+git submodule add -f https://github.com/kaneda/knife
 git submodule add -f https://github.com/ksoona/tanto ktanto
 git submodule add -f https://github.com/thomhastings/rice
 git submodule add -f https://github.com/lionsec/katoolin
