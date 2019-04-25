@@ -40,3 +40,6 @@
 [submodule "tails-src"]
 	path = tails-src
 	url = https://git-tails.immerda.ch/tails
+[submodule "build-scripts/kali-vagrant"]
+	path = build-scripts/kali-vagrant
+	url = https://gitlab.com/kalilinux/build-scripts/kali-vagrant
