@@ -22,3 +22,15 @@
 [submodule "ptf"]
 	path = ptf
 	url = https://github.com/trustedsec/ptf
+[submodule "wifite2"]
+	path = wifite2
+	url = https://github.com/derv82/wifite2
+[submodule "katoolin"]
+	path = katoolin
+	url = https://github.com/lionsec/katoolin
+[submodule "kalitorify"]
+	path = kalitorify
+	url = https://github.com/brainfucksec/kalitorify
+[submodule "tails"]
+	path = tails
+	url = https://git-tails.immerda.ch/tails
